@@ -1,9 +1,16 @@
+# Fuctions (Funções)
+    # Dry - Don´t repeat yourself.
+    # Realizam uma tarefa
+    # calcula e retorna um valor
 
-# Default = Aquele que você define o valor no parâmetro
-# Non-Default = Aquele que voÇê não define o valor do parâmetro
+def cleinte1(nome):
+    print(f' ola {nome}')
 
-def boa_vindas(quantidade, nome ='Marcos'):
-    print(f'Olá {nome}.')
-    print(f'Temos { str(quantidade)} laptops em estoque')
+def cliente2(nome):
+    return f'ola {nome}'
 
-boa_vindas(6)
+x = cleinte1('maria')
+y = cliente2('jose')
+
+print(y)
+print(x)
